@@ -123,8 +123,8 @@ public class CalculatorController {
     @FXML
     public void onThreeButtonClick(MouseEvent mouseEvent) {
         beforeTextChange();
+        calculatorTextArea.setText(calculatorTextArea.getText() + 3);
         mathEquation.append(3);
-        calculatorTextArea.setText(mathEquation.toString());
     }
 
     @FXML
