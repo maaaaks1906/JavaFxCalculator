@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:id="settingsPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="207.0" prefWidth="273.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.maks.calculator.SettingsController">
+   <children>
+      <CheckBox layoutX="84.0" layoutY="68.0" mnemonicParsing="false" onMouseClicked="#onBrightModeClick"
+                prefHeight="18.0" prefWidth="110.0" text="Bright mode"/>
+      <CheckBox layoutX="84.0" layoutY="109.0" mnemonicParsing="false" onMouseClicked="#onDarkModeClick"
+                prefHeight="18.0" prefWidth="110.0" text="Dark Mode"/>
+   </children>
+</Pane>

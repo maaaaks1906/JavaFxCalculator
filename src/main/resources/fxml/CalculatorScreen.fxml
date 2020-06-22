@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<Pane fx:id="calculatorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="354.0" prefWidth="202.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.maks.calculator.CalculatorController">
+   <Button layoutX="151.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#onEqualsButtonMouseClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="right-panel-button" stylesheets="@../css/style.css"
+           text="="/>
+   <Button layoutX="151.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#onMinusButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="right-panel-button" stylesheets="@../css/style.css"
+           text="-"/>
+   <Button layoutX="151.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onPlusButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="right-panel-button" stylesheets="@../css/style.css"
+           text="+"/>
+   <TextArea fx:id="calculatorTextArea" editable="false" layoutY="-2.0" prefHeight="104.0" prefWidth="202.0"
+             styleClass="text-area" stylesheets="@../css/style.css"/>
+   <Button layoutX="1.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onACButtonClick" prefHeight="50.0"
+           prefWidth="50.0" styleClass="top-panel-button" stylesheets="@../css/style.css" text="AC"/>
+   <Button layoutX="1.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onOneButtonClick" prefHeight="50.0"
+           prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css" text="1"/>
+   <Button layoutX="51.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onTwoButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="2"/>
+   <Button layoutX="101.0" layoutY="252.0" mnemonicParsing="false" onMouseClicked="#onThreeButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="3"/>
+   <Button layoutX="101.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#onSixButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="6"/>
+   <Button layoutX="51.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#onFiveButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="5"/>
+   <Button layoutX="1.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#onFourButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="4"/>
+   <Button layoutX="101.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#onNineButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="9"/>
+   <Button layoutX="51.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#onEightButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="8"/>
+   <Button layoutX="1.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#onSevenButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="7"/>
+   <Button layoutX="51.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onPlusOrNegativeButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="top-panel-button" stylesheets="@../css/style.css"
+           text="+/-"/>
+   <Button layoutX="101.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onPercentButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="top-panel-button" stylesheets="@../css/style.css"
+           text="\%"/>
+   <Button layoutX="151.0" layoutY="152.0" mnemonicParsing="false" onMouseClicked="#onMultiplyButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="right-panel-button" stylesheets="@../css/style.css"
+           text="x"/>
+   <Button layoutX="151.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onDivideButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="right-panel-button" stylesheets="@../css/style.css"
+           text="/"/>
+   <Button layoutX="1.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#onZeroButtonClick"
+           prefHeight="50.0" prefWidth="100.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text="0"/>
+   <Button layoutX="101.0" layoutY="302.0" mnemonicParsing="false" onMouseClicked="#onComaButtonClick"
+           prefHeight="50.0" prefWidth="50.0" styleClass="middle-panel-button" stylesheets="@../css/style.css"
+           text=","/>
+</Pane>

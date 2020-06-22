@@ -1,0 +1,25 @@
+.right-panel-button {
+    -fx-background-color: #fece2f;
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 16px;
+    -fx-color: #000000;
+}
+
+.middle-panel-button {
+    -fx-background-color: #616A6B;
+    -fx-font-size: 16px;
+    -fx-color: #000000;
+}
+
+.top-panel-button{
+    -fx-background-color: #424949;
+    -fx-font-size: 16px;
+    -fx-color: #000000;
+}
+
+.text-area {
+    -fx-background-color: #17202A;
+    -fx-font-family: 'Segoe UI';
+    -fx-font-size: 32px;
+
+}
