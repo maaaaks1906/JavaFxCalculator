@@ -116,8 +116,8 @@ public class CalculatorController {
     @FXML
     public void onTwoButtonClick(MouseEvent mouseEvent) {
         beforeTextChange();
+        calculatorTextArea.setText(calculatorTextArea.getText() + 2);
         mathEquation.append(2);
-        calculatorTextArea.setText(mathEquation.toString());
     }
 
     @FXML
